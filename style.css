@@ -1,0 +1,12 @@
+.header{
+
+	border: 3px black solid;
+	text-align: center;
+}
+
+#nav{
+
+	display: inline-flex;
+	list-style: none;
+	margin-bottom:;
+}
