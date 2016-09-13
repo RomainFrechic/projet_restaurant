@@ -1,0 +1,17 @@
+h2{
+
+	text-align: center;
+}
+
+.texte_nm{
+
+	text-align:justify; 
+	width: 500px;
+	margin: 3px;
+	
+}
+
+.coordonnees_nm{
+
+	text-align: right;
+}
