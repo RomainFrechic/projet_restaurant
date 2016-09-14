@@ -1,3 +1,4 @@
+
 /* FRED CSS SERVICE BLOQUE 3 */
 .block_service_fred{
 	text-align: center;
@@ -50,4 +51,137 @@ li{
 	height: 30%;
 }
 /** CSS FRED SERVICE END **/
+
+
+.contacter_nm{
+	font-size: 30px;
+	text-align: center;
+	margin-top:0;
+	padding-bottom: 100;
+
+
+}
+
+
+.texte_nm{
+	text-align: justify;
+	margin-left: 800px;
+	margin-right: 20px;
+
+	
+}
+.coordonnees_nm{
+	text-align: justify;
+	margin-left: 800px;
+	margin-right: 20px;
+	
+
+}
+
+.reseaux_nm{
+	margin-left: 800px;
+	margin-right: 20px;
+	margin-top: -50px;
+	
+}
+
+.formulaire_nm{
+
+	margin-top: -168px;
+	padding-left: 100px;
+	margin-left: 50px;
+	text-align: left;
+
+}
+
+textarea{
+	width:300px ;
+	height:300px ;
+}
+
+
+
+.submit_nm{
+	margin-left: 400px;
+	margin-top: -100px;
+}
+
+.encadre1{
+
+	margin-left: 85px;
+}
+
+.encadre2{
+	margin-left: 42px;
+
+}
+
+
+.header-rf{
+
+	border: 3px black solid;
+	text-align: center;
+	height: 600px;
+	background-color: white;
+	position: relative;
+	background-image: url(http://brandfiercely.com/wp-content/uploads/2015/08/Pizza-Hut.jpg);
+	background-position: center center;
+	background-attachment: fixed;
+	background-repeat: no-repeat; 
+	background-size: cover;
+	opacity: 0.7;
+	
+}
+
+
+.nav-rf{
+
+	display: inline-flex;
+	list-style: none;
+	justify-content: space-around;
+	
+}
+
+.nav-rf li a {
+	
+	margin: 35px;
+	text-decoration: none;
+	font-size: 45px;
+	font-style: bold;
+
+	
+}
+
+a:link {color: black;}
+a:visited {color: black;}
+a:hover, a:focus, a:active {color: red;}
+
+.titre-rf{
+	font-size: 55px;
+	color: red;
+	font-size: bold;
+
+
+}
+.sous-titre-rf{
+	font-family: 'Open Sans', sans-serif;
+	color: red;
+	font-size: 25px;
+}
+
+.view-rf a {
+
+	border: 5px red solid;
+	text-decoration: none;
+	background-color: red;
+	opacity: 0.7;
+	line-height: 200px;
+}
+
+
+.fa{
+
+	line-height: 85px;
+}
+
 
