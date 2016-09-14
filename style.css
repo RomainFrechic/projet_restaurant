@@ -1,0 +1,53 @@
+/* FRED CSS SERVICE BLOQUE 3 */
+.block_service_fred{
+	text-align: center;
+	background-color: grey;
+}
+.title_service_top_fred {
+	font-size: 70px;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+}
+h3{
+	font-size: 50px;
+}
+p{
+	font-weight: bold;
+	font-size: 20px;
+}
+
+li{
+	list-style: none;
+}
+
+
+.body_fred{
+	margin-top: 150px;
+	text-align: center;
+	list-style: none;
+}
+.bouton1_fred {
+	margin-left: 50px;
+	margin-right: auto;
+	margin-top: 10px;
+	display: inline-block;
+	list-style: none;
+	width:30%;
+	height:20%;
+}
+.bouton2_fred {
+	display: inline-block;
+	list-style: none;
+	width: 30%;
+	height: 30%;
+
+}
+.bouton3_fred {
+	display: inline-block;
+	list-style: none;
+	width: 30%;
+	height: 30%;
+}
+/** CSS FRED SERVICE END **/
+
