@@ -1,0 +1,76 @@
+h2{
+
+	text-align: center;
+	margin: 50px;
+
+
+}
+
+
+.texte_nm{
+	text-align: justify;
+	margin-left: 800px;
+	margin-right: 20px;
+
+	
+}
+.coordonnees_nm{
+
+	text-align: justify;
+	margin-left: 800px;
+	margin-right: 20px;
+	line-height: -10px;
+
+}
+
+
+
+.reseaux_nm{
+
+
+	
+	margin-left: 800px;
+	margin-right: 20px;
+	padding-top: 200px;
+	padding-bottom: 20px;
+}
+
+.formulaire_nm{
+
+
+}
+
+/*.bouton_nm{
+
+	text-align: left;
+	padding-left: 300px;
+	padding-bottom: 70px;
+	margin-top: -168px;
+
+}
+
+/*.formulaire1_nm{
+	
+	border:solid black 1px;
+	width:200px; 
+	height:20px;
+	margin-top: -168px;
+	margin-left:300px; 
+}
+
+.formulaire2_nm{
+
+	border:solid black 1px;
+	width:200px; 
+	height:20px;
+	margin-left: 300px;
+	margin-top: 20px;
+}
+.formulaire3_nm{
+
+	border: solid black 1px;
+	width: 200px;
+	height: 200px;
+	margin-left: 300px;
+	margin-top: 20px;
+}/*
