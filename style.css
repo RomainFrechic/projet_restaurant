@@ -1,10 +1,16 @@
 
 .center {
 	text-align: center;
+
 }
 
-h1 {
-color: red;
+.cadrect{
+	border: 3px black solid;
+	background-color: #fce4ec;
+}
+
+.catct {
+	color: red;
 }
 
 .lienct {
@@ -14,7 +20,7 @@ color: red;
 .lienct li {
 	display:inline;
 	list-style: none;
-	border: solid red 1px;
+	border: solid red 2px;
 	padding:10px ;
 	/*background-color: yellow;*/
 	margin: 20px;
@@ -32,6 +38,7 @@ li a {
 	width: 20%;
 }
 
+
 .photo1ct {
 	margin-top: 150px;
 }
@@ -42,9 +49,16 @@ li a {
 	display: inline-block;
 	width: 20%;
 }
+
+h6 {
+	color: grey;
+	margin-top:-10px;
+}
 	
 .morect a {
 	text-decoration: none;
 	padding:10px;
 	border: solid 5px;
 }
+
+
