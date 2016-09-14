@@ -2,15 +2,16 @@
 
 	border: 3px black solid;
 	text-align: center;
-	height: 400px;
+	height: 600px;
 	background-color: white;
 	position: relative;
 	background-image: url(http://brandfiercely.com/wp-content/uploads/2015/08/Pizza-Hut.jpg);
-    background-position: center center;
-    background-repeat: no-repeat; 
-   background-size: cover;
-   opacity: 0.7;
-   
+	background-position: center center;
+	background-attachment: fixed;
+	background-repeat: no-repeat; 
+	background-size: cover;
+	opacity: 0.7;
+	
 }
 
 
@@ -37,7 +38,7 @@ a:visited {color: black;}
 a:hover, a:focus, a:active {color: red;}
 
 .titre-rf{
-   font-size: 55px;
+	font-size: 55px;
 	color: red;
 	font-size: bold;
 
@@ -55,7 +56,11 @@ a:hover, a:focus, a:active {color: red;}
 	text-decoration: none;
 	background-color: red;
 	opacity: 0.7;
-	line-height: 85px;
+	line-height: 200px;
 }
 
 
+.fa{
+
+	line-height: 85px;
+}
