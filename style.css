@@ -1,0 +1,50 @@
+.header-rf{
+
+	border: 3px black solid;
+	text-align: center;
+	height: 400px;
+	background-image: url(http://brandfiercely.com/wp-content/uploads/2015/08/Pizza-Hut.jpg);
+    background-position: center center;
+    background-repeat: no-repeat; 
+   background-size: cover;
+   opacity: 0.8;
+   
+}
+
+
+.nav-rf{
+
+	display: inline-flex;
+	list-style: none;
+	justify-content: space-around;
+	
+}
+
+.nav-rf li a {
+	
+	margin: 35px;
+	text-decoration: none;
+	
+}
+
+.titre-rf{
+   font-size: 35px;
+	color: red;
+
+
+}
+.sous-titre-rf{
+	font-family: 'Open Sans', sans-serif;
+	color: red;
+}
+
+.view-rf a {
+
+	border: 5px red solid;
+	text-decoration: none;
+	background-color: red;
+	opacity: 0.7;
+	line-height: 85px;
+}
+
+
