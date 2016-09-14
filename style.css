@@ -1,26 +1,50 @@
 
-
-li  {
-	display:inline;
-	list-style: none;
-	margin:10px;
+.center {
+	text-align: center;
 }
-
-
-.photo2{
-	display:inline;
-	list-style: none;
-}
-
-	
-	
-
 
 h1 {
 color: red;
-text-align: center;
 }
 
-.entete h4 {
-text-align: center;
+.lienct {
+	margin-top: 100px;
+}
+
+.lienct li {
+	display:inline;
+	list-style: none;
+	border: solid red 1px;
+	padding:10px ;
+	/*background-color: yellow;*/
+	margin: 20px;
+}
+
+li a {
+	color:black;
+	text-decoration: none;
+	text-align: center;
+}
+
+.photo1ct li {
+	list-style: none;
+	display: inline-block;
+	width: 20%;
+}
+
+.photo1ct {
+	margin-top: 150px;
+}
+
+
+.photo2ct li {
+	list-style: none;
+	display: inline-block;
+	width: 20%;
+}
+	
+.morect a {
+	text-decoration: none;
+	padding:10px;
+	border: solid 5px;
 }
