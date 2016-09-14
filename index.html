@@ -15,7 +15,7 @@
 
 	<footer>
 
-		<h2>Nous contacter</h2>
+		<h2 class="contacter_nm">nous contacter</h2>
 
 		<div class="texte_nm">
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio iste esse temporibus impedit commodi laborum vitae placeat cum. In dolorum adipisci dolore et aspernatur deleniti quasi animi sed illo nobis! </p>
@@ -29,44 +29,34 @@
 					<span class="coordonnees_nm">
 						Mail : resto@gmail.com</span>
 					</div>
-<div class="formulaire_nm">
-					<form method="post" action="traitement.php">
-						<p>
-							<label for="pseudo">Pseudo</label> : <input type="text" name="pseudo" id="pseudo" placeholder="" size="30" maxlength="10"/>
-							<label for="pass">Mot de passe:</label><input type="password" name="pass" id="pass"/></p>
+					<div class="formulaire_nm">
+						<form method="post" action="traitement.php">
+							<p class="nm">
+								<label for="pseudo">Pseudo</label> : <span class="encadre1"><input type="text" name="pseudo" id="pseudo" placeholder="" size="28" maxlength="10"/></span></p>
+
+								<p class="nm"><label for="pass">Mot de passe: <span class="encadre2"></label><input type="password" name="pass" id="pass" size="28" /></span></p>
+								
+
+								<p class="nm"><label for="ameliorer">Laisser un message</label><textarea name="ameliorer" id="ameliorer"></textarea></p>
+							</div>
 						</form>
-						</div>
 
 
 
 
-					<!--<div class="formulaire1_nm">
-					</div>
-
-					<div class="formulaire2_nm">
-					</div>
-
-					<div class="formulaire3_nm">
-					</div>
-					<div class="bouton_nm">
-
-						Envoyer
-
-					</div>-->
 
 
-					<div class="reseaux_nm">
-						<a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-						<a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-						<a href="#"><i class="fa fa-google" aria-hidden="true"></i></a>
-
-					</div>
-
-					
+						<span class="submit_nm">
+							<input type="submit" value="Envoyer"/></span>
 
 
+							<div class="reseaux_nm">
+								<a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+								<a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+								<a href="#"><i class="fa fa-google" aria-hidden="true"></i></a>
+							</div>
 
 
-				</footer>	
-			</body>
-			</html>
+						</footer>	
+					</body>
+					</html>

@@ -1,7 +1,8 @@
-h2{
-
+.contacter_nm{
+	font-size: 30px;
 	text-align: center;
-	margin: 50px;
+	margin-top:0;
+	padding-bottom: 100;
 
 
 }
@@ -15,62 +16,48 @@ h2{
 	
 }
 .coordonnees_nm{
-
 	text-align: justify;
 	margin-left: 800px;
 	margin-right: 20px;
-	line-height: -10px;
+	
 
 }
 
-
-
 .reseaux_nm{
-
-
-	
 	margin-left: 800px;
 	margin-right: 20px;
-	padding-top: 200px;
-	padding-bottom: 20px;
+	margin-top: -50px;
+	
 }
 
 .formulaire_nm{
 
-
-}
-
-/*.bouton_nm{
-
+	margin-top: -168px;
+	padding-left: 100px;
+	margin-left: 50px;
 	text-align: left;
-	padding-left: 300px;
-	padding-bottom: 70px;
-	margin-top: -168px;
 
 }
 
-/*.formulaire1_nm{
-	
-	border:solid black 1px;
-	width:200px; 
-	height:20px;
-	margin-top: -168px;
-	margin-left:300px; 
+textarea{
+	width:300px ;
+	height:300px ;
 }
 
-.formulaire2_nm{
 
-	border:solid black 1px;
-	width:200px; 
-	height:20px;
-	margin-left: 300px;
-	margin-top: 20px;
+
+.submit_nm{
+	margin-left: 400px;
+	margin-top: -100px;
 }
-.formulaire3_nm{
 
-	border: solid black 1px;
-	width: 200px;
-	height: 200px;
-	margin-left: 300px;
-	margin-top: 20px;
-}/*
+.encadre1{
+
+	margin-left: 85px;
+}
+
+.encadre2{
+	margin-left: 42px;
+
+}
+
