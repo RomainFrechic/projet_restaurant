@@ -1,12 +1,90 @@
-.header{
+.romainheader{
 
 	border: 3px black solid;
 	text-align: center;
+	height: 300px;
+
+	
 }
 
-#nav{
+
+#romainnav{
 
 	display: inline-flex;
 	list-style: none;
-	margin-bottom:;
+	justify-content: space-around;
+	
+}
+
+#romainnav li a {
+	
+	margin: 35px;
+	text-decoration: none;
+	
+}
+
+.romainlogocategories{
+
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	display: flex;
+	justify-content: space-around;
+	text-align: center;
+	height: 800px;
+
+
+}
+
+
+/*FORMULAIRE*/
+fieldset {
+	padding:0 100px 100px 100px;
+	margin-bottom:10px;
+	border:3px solid #DF3F3F;
+	width: 3px;
+}
+legend {
+	color:#DF3F3F;
+	font-weight:bold
+}
+label {
+	margin-top:10px;
+	display:block;
+}
+label.inline {
+	display:inline;
+	margin-right:50px;
+}
+input, textarea, select, option {
+	background-color:#FFF3F3;
+
+}
+input, textarea, select {
+	padding:10px;
+	border:1px solid #F5C5C5;
+	border-radius:5px;
+	width:200px;
+	box-shadow:1px 1px 2px #C0C0C0 inset;
+}
+select {
+	margin-top:10px;
+}
+input[type=radio] {
+	background-color:transparent;
+	border:none;
+	width:5px;
+
+}
+
+}
+input[type=submit], input[type=reset] {
+	width:100px;
+	margin-left:50px;
+
+	box-shadow:1px 1px 1px #D83F3D;
+	cursor:pointer;
+	margin-top: 5px;
+
+
 }

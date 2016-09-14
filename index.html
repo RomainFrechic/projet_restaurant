@@ -7,17 +7,20 @@
 	<title>Restaurant</title>
 </head>
 <body>
-	<header class="header">
-		<h1>Fresh and Tasty</h1>
-		<h3>Pizzas and Burgers</h3>
+	<header class="romainheader">
+
 		<div>
-			<ul id="nav">
+			<ul id="romainnav">
 				<li><a href="#">Home</a></li>
 				<li><a href="#">Catégories</a></li>
 				<li><i class="fa fa-graduation-cap fa-5x " aria-hidden="true"></i></li>
 				<li><a href="#">Service</a></li>
 				<li><a href="#">Contact</a></li>
 			</ul>
+		</div>
+		<div class="romaintitreheader">
+			<h1>Fresh and Tasty</h1>
+			<h3>Pizzas and Burgers</h3>
 		</div>
 		
 		<div class="logo2">
@@ -32,21 +35,23 @@
 
 	</header>
 	<service>
-		</div>
-		<div class="logo3">
-			<i class="fa fa-graduation-cap fa-5x" aria-hidden="true"></i>
-			<h2 class="red">OUT DOOR CATERING</h2>
-			<h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus consequatur vel hic possimus</h3>
-		</div>
-		<div class="logo3">
-			<i class="fa fa-graduation-cap fa-5x" aria-hidden="true"></i>
-			<h2 class="red">HOME DELIVERY</h2>
-			<h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur facilis sit mollitia, quo omnis quaerat</h3>
-		</div>
-		<div class="red">
-			<i class="fa fa-graduation-cap fa-5x" aria-hidden="true"></i>
-			<h2 class="logo3">PARTIES</h2>
-			<h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem dolore, iusto magni culpa quis </h3>
+		<div class="romainlogocategories">
+			<div class="logo3">
+				<i class="fa fa-graduation-cap fa-5x" aria-hidden="true"></i>
+				<h2 class="red">OUT DOOR CATERING</h2>
+				<h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus consequatur vel hic possimus</h3>
+			</div>
+			<div class="logo3">
+				<i class="fa fa-graduation-cap fa-5x" aria-hidden="true"></i>
+				<h2 class="red">HOME DELIVERY</h2>
+				<h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur facilis sit mollitia, quo omnis quaerat</h3>
+			</div>
+			<div class="red">
+				<i class="fa fa-graduation-cap fa-5x" aria-hidden="true"></i>
+				<h2 class="logo3">PARTIES</h2>
+				<h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem dolore, iusto magni culpa quis </h3>
+			</div>
+
 		</div>
 
 
@@ -54,5 +59,34 @@
 	</service>
 	<categorie></categorie>
 	<footer></footer>
+
+	<formulaire>
+		
+		<fieldset>
+			<legend>Votre pseudo :</legend>
+			<label for="email">Vos coordonnées :</label>
+			<input type="email" name="email" size="20" 
+			maxlength="40" value="email" id="email" />
+			<label for="Password">Password :</label>
+			<input type="Password" name="Password" size="20" 
+			maxlength="40" value="Password" id="Password" />
+
+
+
+			<label for="comments">Vos commentaires :</label>
+			<textarea name="comments" id="comments" cols="20" rows="4">
+			</textarea>
+		</fieldset>
+
+		<p>
+			<input type="submit" value="Envoyer" />
+			<input type="reset" value="Annuler" />
+		</p>
+
+	</form>
+
+
+
+</formulaire>
 </body>
 </html>
